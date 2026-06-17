@@ -227,3 +227,78 @@ form .form-head .btn:hover{
    
     
 }
+
+
+@media (max-width: 768px) {
+
+    .main{
+        padding: 10px;
+    }
+
+    nav{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 15px;
+        text-align: center;
+    }
+
+    nav h5{
+        font-size: 24px;
+    }
+
+    .btn-1{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .products{
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .product-card{
+        width: 100%;
+        height: auto;
+    }
+
+    .product-card .img{
+        height: 220px;
+    }
+
+    .product-card .text h2{
+        font-size: 22px;
+    }
+
+    .product-card .text p{
+        font-size: 15px;
+    }
+
+    .product-card .p-btn{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .btn-2,
+    .btn-3{
+        width: 100%;
+    }
+
+    form{
+        width: 95%;
+        padding: 15px;
+    }
+
+    form .form-head h5{
+        font-size: 24px;
+    }
+
+    input{
+        font-size: 16px;
+    }
+
+    .btn-4{
+        width: 100%;
+    }
+
+}
