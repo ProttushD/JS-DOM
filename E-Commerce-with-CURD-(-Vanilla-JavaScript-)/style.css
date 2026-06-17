@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding: 20px;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: cadetblue;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+}
+
+nav h5{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.btn-1{
+    padding: 5px 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+
+    transition: all ease .5s;
+}
+
+
+.btn-1:hover{
+    cursor: pointer;
+
+    background-color: black;
+    color: #fff;
+}
+
+
+.products{
+    width: 100%;
+    margin-top: 30px;
+    display:flex ;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.product-card{
+    width: 20%;
+    height: 50%;
+
+    border-radius: 20px;
+border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: hidden;
+
+
+    padding: 10px;
+}
+
+.product-card .img{
+    width: 100%;
+    height: 250px;
+    background-color: #dadada;
+    background-size: cover;
+    /* border: 1px solid #000; */
+    border-radius: 20px;
+    overflow: hidden;
+     
+     
+}
+
+.product-card .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    
+}
+
+.product-card .text{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.product-card .p-btn{
+   
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.btn-2{
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(136, 97, 0);
+    color: #fff;
+
+    transition: all ease .5s;
+}
+
+
+.btn-2:hover{
+    cursor: pointer;
+
+   background-color: #000;
+   color:#fff;
+    
+}
+
+
+.btn-3{
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: darkred;
+    color: #fff;
+
+    transition: all ease .5s;
+}
+
+
+.btn-3:hover{
+    cursor: pointer;
+
+    background-color: black;
+    color: #fff;
+}
+
+
+.form{
+    width: 100%;
+    height: 100%;
+    background-color: #0000005e;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-4{
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+input{
+    padding: 10px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+form .form-head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+form .form-head h5{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+form .form-head .btn{
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 50%;
+      background-color: #fff;
+      border: none;
+      transition: all ease .5s;
+
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+form .form-head .btn:hover{
+    cursor: pointer;
+    transform: scale(1.4);
+    color: red;
+   
+    
+}
