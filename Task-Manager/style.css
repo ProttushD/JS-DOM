@@ -1,0 +1,181 @@
+@font-face {
+    font-family:main-font;
+    src: url(./fonts/RecklessCondensedS-TRIAL-Book.woff);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: #eef1f7;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 30px;
+}
+
+.task-asign{
+    width: 67%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.task-asign h1{
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.task-asign p{
+    font-size: 1.2rem;
+    
+}
+
+.task-asign form{
+    width: 100%;
+}
+
+.task-asign form input{
+    width: 65%;
+     padding: 10px 15px;
+     font-size: 15px;
+     background-color: #eef1f7;
+     border: none;
+     border-radius: 10px;
+}
+
+.task-asign form select{
+    width: 20%;
+     padding: 10px 15px;
+     font-size: 15px;
+     background-color: #eef1f7;
+     border: none;
+     border-radius: 10px;
+}
+
+.task-asign form .btn{
+    padding: 10px 15px;
+    font-size: 15px;
+    background-color: rgb(28, 0, 95);
+    color: #fff;
+    border-radius: 10px;
+     border: 1px solid  rgba(29, 0, 95, 0);
+    transition: all ease .5s;
+
+    
+}
+
+.task-asign form .btn:hover{
+    cursor: pointer;
+    background-color: #eef1f7;
+    color: rgb(28, 0, 95);
+    border: 1px solid  rgb(28, 0, 95);
+}
+
+
+.task-apear{
+    width: 67%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.task-apear h1{
+
+    font-size: 3rem;
+    font-weight: 400;
+
+}
+
+.task-apear .task-box{
+    display: flex;
+    width: 100%;
+    background-color: #eef1f7;
+    justify-content: space-between;
+     padding: 15px 15px;
+
+     border-radius: 1rem;
+}
+
+.task-apear .task-box .text{
+    width: 60%;
+    padding: 10px 15px;
+    
+}
+
+.task-apear .task-box .text h5{
+    font-size: 1.5rem;
+    font-size: 100;
+    
+}
+
+
+.task-apear .task-box .btns{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+.task-apear .task-box .btns .type{
+   padding: 5px 15px;
+   border-radius: 10px;
+ background-color: rgb(28, 0, 95);
+ color: #fff;
+ display: flex;
+ align-items: center;
+
+
+}
+
+
+
+.task-apear .task-box .btns  .btn{
+   padding: 10px 15px;
+   border-radius: 10px;
+   border: none;
+   font-size: 1rem;
+  background-color: #fff;
+   transition: all ease .5s;
+  
+}
+
+.task-apear .task-box .btns  .btn:hover{
+   padding: 10px 15px;
+   cursor: pointer;
+  
+}
+
+.task-apear .task-box .btns .btn-1:hover{
+    background-color: goldenrod;
+    color: #fff;
+}
+
+.task-apear .task-box .btns .btn-2:hover{
+    background-color: rgb(99, 165, 0);
+    color: #fff;
+}
+
+.task-apear .task-box .btns .btn-3:hover{
+    background-color: darkred;
+    color: #fff;
+}
+
